@@ -1,0 +1,31 @@
+About the Project
+The Hangman Game is a Python‑based interactive word‑guessing program that demonstrates logical thinking and programming fundamentals. A random word is selected from a predefined list, and the player must guess letters within a limited number of chances. Correct guesses reveal letters in their positions, while incorrect guesses reduce the remaining attempts. The game continues until the player either completes the word or exhausts all chances.
+
+How I Made This Project
+Word Selection → I used Python’s random module to select a secret word from a list of words (e.g., fruits).
+
+Game Logic → Loops and conditionals were applied to check whether guessed letters were correct and update the word display.
+
+Chances Calculation → The number of chances was set to length of the word + 2, ensuring fairness for the player.
+
+Progress Tracking → Correct guesses revealed letters in their positions, while wrong guesses reduced the attempt count.
+
+User Interaction → Input validation was added to ensure smooth gameplay and prevent invalid entries.
+
+Features
+Random word selection for unpredictability.
+
+Limited chances based on word length.
+
+Real‑time progress display showing guessed letters.
+
+Input validation and error handling for smooth execution.
+
+Sample Output
+Code
+Guess the word: _ _ _ _ _
+Enter a letter: a
+Correct! Word progress: a _ a _ o
+Remaining chances: 5
+Significance
+This project highlights Python’s versatility in building engaging applications. It demonstrates the use of loops, conditionals, lists, and string operations in a practical context. The Hangman Game reflects a clear, modular design suitable for academic evaluation and showcases problem‑solving skills in programming.
